@@ -3,16 +3,16 @@ const button = document.getElementById('btn')
 const output = document.getElementById('output')
 
 function removeWhitespace(str) {
-  let result = '';
+  let result = ''
   for (let i = 0; i < str.length; i++) {
     if (str[i] !== ' ') {
       result += str[i];
     }
   }
-  return result;
+  return result
 }
 
-function revereString(word) {
+function revereString (word) {
 
   let reverseWord = ''
   for (let i = word.length - 1; i >= 0; i--) {
