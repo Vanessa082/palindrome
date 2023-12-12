@@ -1,0 +1,59 @@
+body {
+  background-color: #318ce3;
+  padding-top: 4rem;
+}
+
+.heading {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.checker {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  border: groove;
+}
+
+.message {
+  border: none;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.txt {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 8px;
+}
+
+#btn {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 2rem;
+  background-color: #318ce3;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .message {
+    font-size: 1rem;
+  }
+
+  .checker {
+    padding: none;
+  }
+}
