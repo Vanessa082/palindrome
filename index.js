@@ -22,9 +22,9 @@ function revereString(word) {
 }
 
 button.addEventListener('click', function () {
-  const word = removeWhitespace(inputText.value);
+  const word = removeWhitespace(inputText.value)
 
-  const reverseWord = revereString(word);
+  const reverseWord = revereString(word)
 
   if (word.toLowerCase() === reverseWord.toLowerCase()) {
     output.innerText = "'" + word + "' is a palindrome \u2705"
